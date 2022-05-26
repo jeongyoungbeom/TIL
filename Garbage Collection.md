@@ -77,8 +77,7 @@ Minor GC, Major GC 모두 실패했거나, Young영역과 Old영역 모두 가�
 | GC 종류 | Minor GC | Major GC | Full GC |
 | --- | --- | --- | --- |
 | 대상 | Young Generation | Old Generation | Young, Old Generation |
-| 실행 시점 | Eden 영역이 꽉 찬 경우 | Old 영역이 꽉 찬 경우 | Minor GC, Major GC 모두 실패
-또는 young영역과 Old영역 모두 가득 찼을 경우 |
+| 실행 시점 | Eden 영역이 꽉 찬 경우 | Old 영역이 꽉 찬 경우 | Minor GC, Major GC 모두 실패 또는 young영역과 Old영역 모두 가득 찼을 경우 |
 | 실행 속도 | 빠르다 | 느리다 | 느리다 |
 
 ## < Garbage Collection의 종류 >
